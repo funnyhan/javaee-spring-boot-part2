@@ -128,6 +128,7 @@ public class MyMvcConfig extends WebMvcConfigurationSupport{    //2 继承WebMvc
      */
     @Override
     protected void extendMessageConverters(List<HttpMessageConverter<?>> converters) {
+        System.out.println("extendMessageConverters");
         converters.add(converter());
     }
 
