@@ -1,0 +1,2 @@
+    Spring MVC提供了一个DispatchServlet来开发Web应用。在Servlet2.5及以下的时候只要在web.xml下配置<servlet>元素即刻。
+但在本节使用Servlet3.0+无web.xml的配置方式，在Spring MVC里实现WebApplicationInitializer接口便可实现等同于web.xml的配置

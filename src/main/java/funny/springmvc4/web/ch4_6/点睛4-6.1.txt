@@ -1,0 +1,10 @@
+    测试时保证软件质量的关键，所以我们在"第一部分 点睛Spring 4.X"、"第二部分 点睛Spring MVC 4.X"
+和"第三部分 实现Spring Boot"中都将会有测试相关的内容。
+    在第一部分，我们只谈了简单的测试。在本节，我们要进行一些和Spring MVC相关的测试，主要涉及控制器的测试。
+    为了测试Web项目通常不需要启动项目，我们需要一些Servlet相关的模拟对象，比如：MockMVC、MockHttpServletRequest、
+MockHttpServletResponse、MockHttpSession等。
+    可能许多人，包括我自己以前也觉得测试有什么用，自己启动一下，点点弄弄，就像我们前面的例子不也都是这样测试的吗？其实在显示开发中，
+我们是现有需求的也就是说先知道我们想要的是什么样，然后按照我们想要的样子去开发。在这里我们也要引入一个概念叫测试驱动开发(Test Driven Development,TDD)。
+我们(设计人员)按照需求先写一个自己预期结果的测试用例，这个测试用例刚开始肯定是失败的测试，随着不断的编码和重构，
+最终让测试用例通过测试，这样才能保证软件的质量和可控性。
+    在线面的示例里我们借助JUnit和Spring TestContext framework,分别演示对普通页面转向形控制器和RestController进行测试。

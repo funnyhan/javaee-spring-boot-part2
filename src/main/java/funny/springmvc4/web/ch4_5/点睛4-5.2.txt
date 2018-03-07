@@ -1,0 +1,5 @@
+    HttpMessageConverter是用来处理request和response里的数据。Spring为我们内置了大量HttpMessageConverter，
+例如，MappingJackson2HttpMessageConverter、StringHttpMessageConverter等。本节将演示自定义的HttpMessageConverter，
+并注册这个HttpMessageConverter到SpringMVC。
+
+    没成功。报错！！406.无法解析？

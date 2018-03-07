@@ -1,0 +1,2 @@
+    文件上传是一个项目里经常要用的功能，SpringMVC通过配置一个MultipartResolver来上传文件。
+    在Spring的控制器中，通过MultipartFile file来接收文件，通过MultipartFile[] files接收多个文件上传

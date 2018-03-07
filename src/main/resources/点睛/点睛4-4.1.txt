@@ -1,0 +1,1 @@
+    程序的静态文件(js、css、图片)等需要直接访问，这时我们可以在配置里重写addResourceHandlers方法来实现
